@@ -3,6 +3,9 @@ Validate a BIDS directory
 
 ## Installation
 You will need to install the 'bids' package for python (via sciget) before running
+```
+[user@sciget ~]$ pip3 install bids
+```
 
 ## Usage
 on an ibash session, first load in python
