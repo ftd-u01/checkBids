@@ -9,8 +9,9 @@ You will need to install the 'bids' package for python (via sciget) before runni
 
 ## Usage
 on an ibash session, first load in python
+```
 load module python/3.6.1
-
+```
 next, run the script and point it to the base directory of a BIDS dataset
 ```
 python3 checkBids.py -p /path/to/bids/data
