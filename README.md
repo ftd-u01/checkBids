@@ -12,7 +12,7 @@ on an ibash session, first load in python
 ```
 module load python/3.6.1
 ```
-next, run the script and point it to the base directory of a BIDS dataset
+next, run the script and point it to the base directory of a BIDS dataset (this directory must contain a 'dataset_description.json' file)
 ```
 python3 checkBids.py -p /path/to/bids/data
 ```
