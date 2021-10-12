@@ -12,5 +12,4 @@ next, run the script and point it to the base directory of a BIDS dataset
 ```
 python3 checkBids.py -p /path/to/bids/data
 ```
-
-Currently the script will write to stdout, so if running via bsub it would be wise to pipe the output to a file
+The script requires the 'LSB_JOBID' environment variable so it needs to run on an ibash session or via bsub. Currently the script will write to stdout, so if running via bsub it would be wise to pipe the output to a file
